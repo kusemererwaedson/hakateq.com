@@ -1,0 +1,2 @@
+# hakateq.com
+hello hakateq
