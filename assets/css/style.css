@@ -1,0 +1,140 @@
+.bg_white {
+    -webkit-box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.1);
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.1);
+    background-color: #FFF;
+}
+
+.bg_blue {
+    background-color: #0000CD;
+}
+
+.text_blue {
+    color: #0000CD
+}
+
+.main_body {
+    margin-top: 70px;
+}
+
+.wlcm {
+    font-size: 2.3rem;
+    font-weight: bolder;
+
+}
+
+.image_space {
+    height: 50vh;
+
+}
+
+.image_space img {
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    border-radius: 10%;
+
+}
+
+table {
+    border-radius: 15px;
+}
+
+.fa {
+    padding: 10px;
+
+}
+
+.client_section {
+    font-family: "Open Sans",
+        sans-serif;
+}
+
+.client_section .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.client_section .box .detail-box {
+    -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+.client_section .carousel-wrap {
+    margin: 0 auto;
+    padding: 0 5%;
+    position: relative;
+  }
+  
+
+
+/* ----------------------------------------------------------backend ------------------------------------------ */
+
+.sidebar {
+    height: 60vh;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    height: 100vh;
+    color: white;
+    float: left;
+    width: 20%;
+    position: fixed;
+    top: 0;
+    overflow-y: auto;
+    left: 0;
+    bottom: 0;
+    padding: 40px 20px 20px 20px;
+    z-index: 999;
+
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin-left: 25%;
+
+
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+    padding: 8px;
+}
+
+ul li {
+    padding: 8px;
+    margin-left: 30px;
+    font-size: 1.3rem;
+}
+
+
+.topbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-left: 270px;
+    right: 0;
+}
+
+.dashboard {
+    margin-left: 300px;
+    margin-top: 5%;
+}
